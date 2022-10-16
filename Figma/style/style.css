@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main__logo-bg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.card-title {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+    line-height: 120%;
+    font-weight: bolder;
+}
+
+.main__title {
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+.card-text {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size:1.25em;
+    line-height: 160%;
+    color: black;
+}
+
+.footer {
+    height: 198px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg {
+    background: #5222D0;
+    border-radius: 100px;
+}
+
+.header {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    width: 100%;
+    }
+
+    .logo {
+        max-width: 50%;
+        width: 100%;
+        height: auto;
+    }
+    .main__title {
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+    
+}
